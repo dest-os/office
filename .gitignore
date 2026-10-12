@@ -1,0 +1,39 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# IDE
+.idea/
+.vscode/
+*.ipr
+*.iws
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Sistem
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+
+# Gizli bilgiler asla yüklenmesin
+.env
+.env.*
+**/secrets/
